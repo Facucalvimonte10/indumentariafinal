@@ -88,14 +88,6 @@
 }
 
 /*Página Envios*/
-.videoEnvios iframe {
-  padding: 1rem;
-  position: relative;
-  height: auto;
-  width: auto;
-  right: 10%;
-}
-
 /*Página Contacto*/
 .container .row {
   width: 70%;
@@ -199,10 +191,13 @@ a:hover {
   text-align: center;
 }
 
-.videoEnvios iframe {
-  padding: 1rem;
-  position: relative;
-  left: 40%;
+.videoEnvios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /*Pagina Contacto*/
